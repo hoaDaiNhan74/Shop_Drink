@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink_Shop Order</title>
+    <link rel="shortcut icon" href="./img/product3.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./oder.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <a href="#" class="logo"> 
+            <img src="./img/logo.png" alt="logo image"> 
+            Drink_Shop 
+        </a>
+        <nav class="navbar" id="nav-bar">
+            <a href="./index.html">Home</a>
+            <a href="./menu.html">Menu</a>
+            <a href="#shop-container" id="shop">Shop</a>
+            <a href="#promotion" id="promotion">Promotion</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./recruitment.html" target="_blank">Recruitment</a>
+        </nav>
+        
+        <div class="icons">
+            <div id="btn-shop" class="fa-brands fa-shopify"></div>
+            <div id="btn-user" class="fa-solid fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+    <!-- login-form  -->
+    <div class="login-form">
+        <div class="login-container">
+            <div class="signin-signup">
+                <form action="" class="sign-in-form">
+                    <h2 class="title-lg">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Username" name="" id="">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" name="" id="">
+                    </div>
+                    <input type="submit" value="Login" class="btn" name="" id="">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i style="color: rgb(28, 62, 253);" class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i style="color: rgb(0, 191, 255);" class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <img src="./img/Google.png" alt="">
+                        </a>
+                    </div>
+                    <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+                </form>
+                <form action="" class="sign-up-form">
+                    <h2 class="title-lg">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" name="" id="">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" name="" id="">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" name="" id="">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn" name="" id="">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <svg role="img" height="24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"><defs><path id="a" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z"></path><path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z"></path><path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z"></path><path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z"></path></svg>
+                        </a>
+                    </div>
+                    <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+                </form>
+            </div>
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content-lg">
+                        <h3>Member of Brand?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt minima iure?</p>
+                        <button class="btn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <img src="./img/bai-login.png" alt="" class="image">
+                </div>
+                <div class="panel right-panel">
+                    <div class="content-lg">
+                        <h3>New to Brand?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt minima iure?</p>
+                        <button class="btn" id="sign-up-btn">Sign up</button>
+                    </div>
+                    <img src="./img/crook-login.png" alt="" class="image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="promotion">
+        <div class="promotion-container">
+            <div class="promotion-content">
+                <div class="promotion-header">
+                    <span class="promotion-close"><i class="fa-solid fa-xmark"></i></span>
+                    <h5 class="promotion-title">Promotion</h5>
+                </div>
+                <div class="promotion-body">
+                    <i class="fa-solid fa-qrcode"></i>
+                    <input type="text" placeholder="Enter Promotion...">
+                    <button class="button"><span>Apply</span></button>
+                </div>
+                <div>
+                    <div class="body-title">
+                        <h6>About to expire</h6>
+                    </div>
+                    <div class="body-content">
+                        <div class="bd-card">
+                            <img src="./img/1a.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/1b.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/1c.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/2a.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/2b.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/2c.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/3a.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/3b.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <div class="bd-card">
+                            <img src="./img/3c.png" alt="">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>   
+    </div>
+    <section class="home" id="home">
+        <div class="slider">
+            <div class="images">
+                <div class="item" style="--i: 1;">
+                    <img src="./img/PunchBerry_Can_SM.png">
+                </div>
+                <div class="item" style="--i: 2;">
+                    <img src="./img/bai-chery.png">
+                </div>
+                <div class="item" style="--i: 3;">
+                    <img src="./img/cm-margarita-can.png">
+                </div>
+                <div class="item" style="--i: 4;">
+                    <img src="./img/truly-classic.png">
+                </div>
+                <div class="item" style="--i: 5;">
+                    <img src="./img/crook-marker-after-hours-front.png">
+                </div>
+                <div class="item" style="--i: 6;">
+                    <img src="./img/bai-coconut.png">
+                </div>
+            </div>
+            <div class="content">
+
+                <div class="item active">
+                    <h1>WAIKIKI COCONUT</h1>
+                    <div class="des">
+                        <p>The flavor in this bottle is so big and authentic, it almost tastes as perfect as what an empty hammock between two palms looks like. It’s as if the one gram of sugar is as sweet as a hidden Hawaiian white sand beach. It’s nearly like the ten calories carry the same beauty as a waterfall in the rainforest. In short, this bottle is paradise itself. Without getting leid.</p>
+                    </div>
+                    <button>Oder Now<i class="fa-brands fa-shopify"></i></button>
+                </div>
+                <div class="item">
+                    <h1>MARTINI</h1>
+                    <div class="des">
+                        <p>This 10% ABV Zero Sugar Espresso Martini is made with organic alcohol that’s carefully brewed from the finest ingredients, so you can sip infinite flavor with zero guilt. Our classic cocktail includes bold organic coffee & a hint of vanilla for a kick that’ll make your good times even better.</p>
+                    </div>
+                    <button>Oder Now<i class="fa-brands fa-shopify"></i></button>
+                </div>
+                <div class="item">
+                    <h1>CLASSIC LIME</h1>
+                    <div class="des">
+                        <p>"If it ain’t broke, don't fix it." Hey, you don't need to tell us twice. Classic Lime Margarita-style is as iconic as a drink can get. Sure, there’s some seltzer-y bubbles in there… but deep down, it’s still that same drink you know and love.</p>
+                    </div>
+                    <button>Oder Now<i class="fa-brands fa-shopify"></i></button>
+                </div>
+                <div class="item">
+                    <h1>MARGARITA</h1>
+                    <div class="des">
+                        <p>Sugar kept showing up uninvited to the flavor fiesta. So we showed simple syrup the door and said, “Don’t let the blender hit you on the way out.” With zero sugar, real lime juice and beautifully refreshing natural flavors this Margarita tastes like a turquoise-hued sunset shimmering on the horizon. So cue the mariachi and let’s take our taste buds on a south-of-the-border adventure that’s as simple as crack, sip and repeat.</p>
+                    </div>
+                    <button>Oder Now<i class="fa-brands fa-shopify"></i></button>
+                </div>
+                <div class="item">
+                    <h1>BOLIVIA CHERRY</h1>
+                    <div class="des">
+                        <p>When you open a bottle of Zambia Bing Cherry you start to wonder how it could be this great tasting and good for you. It’s almost as if you would need some sort of delicious magic to make this happen. You might think it’s the bold flavor, 1g of sugar, and no artificial sweeteners that make this bottle so delicious. Or maybe you think a cherry godmother just whacked your taste buds with a flavor wand. But we’ll never tell. Okay, you got us. It’s the second one.</p>
+                    </div>
+                    <button>Oder Now<i class="fa-brands fa-shopify"></i></button>
+                </div>
+                <div class="item">
+                    <h1>BERRY PUNCH</h1>
+                    <div class="des">
+                        <p>We're not going to say something like "Berry Punch packs a punch." Lazy puns like that are *so* below us. Instead, we'll just say it's berry, berry, berry good.</p>
+                    </div>
+                    <button>Oder Now<i class="fa-brands fa-shopify"></i></button>
+                </div>
+            </div>
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    </section>
+
+    <section class="menu-order" id="menu-order">
+        <div class="heading">
+            <span>order now</span>
+            <!-- <h3>fastest home delivery</h3> -->
+        </div>
+        <div class="product">
+            <a class="box active" style="display: none;">
+            </a>
+            <a class="box">
+                <img src="./img/Marg_StrawberryHibiscus_1022_Can-SM.png" alt="">
+                <h3>Truly</h3>
+            </a>
+    
+            <a class="box">
+                <img src="./img/cm-mojito-can.png" alt="">
+                <h3>Crook & Marker</h3>
+            </a>
+    
+            <a class="box">
+                <img src="./img/bai-blood.png" alt="">
+                <h3>Baì Drink</h3>
+            </a>
+    
+            <a class="box">
+                <img src="./img/Vodka_WhitePeach_SM.png" alt="">
+                <h3>Truly Vodka</h3>
+            </a>
+    
+            <a class="box">
+                <img src="./img/cm-tea-and-lemonade-variety-pack-box.png" alt="">
+                <h3>8 Pack</h3>
+            </a>
+            <a class="box">
+                <img src="./img/CM-Organic-Soda-4-pack-LL.png" alt="">
+                <h3>4 Pack</h3>
+            </a>
+        </div>
+        <div class="container-product">
+            <div class="list-product">
+            
+                <div class="container active">
+                    <div class="card">
+                        <span class="titulo-item">ESPRESSO MARTINI</span>
+                        <div class="img">
+                            <img src="./img/crook-marker-after-hours-front.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">MANGO CHILI</p>
+                        <div class="img">
+                            <img src="./img/Marg_MangoChili_1022_Can-SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">COSMO ROSA</p>
+                        <div class="img">
+                            <img src="./img/crook-marker-cosmo-rosa-front.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">LEMONADE 8 PACK</p>
+                        <div class="img">
+                            <img src="./img/CM-Lemonade-Box-Back.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">FREEZE POPS</p>
+                        <div class="img">
+                            <img src="./img/freeze-pops-lemonade.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">CLASSIC COLA</p>
+                        <div class="img">
+                            <img src="./img/CM-Organic-Soda-4-pack-CC.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">JAMAICA BLOOD</p>
+                        <div class="img">
+                            <img src="./img/homepng.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                </div>
+              
+                <div class="container">
+                    <div class="card">
+                        <p class="titulo-item">LIME</p>
+                        <div class="img">
+                            <img src="./img/Lime_Can_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">MANGO</p>
+                        <div class="img">
+                            <img src="./img/Mango_Can_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">COSMO ROSA</p>
+                        <div class="img">
+                            <img src="./img/crook-marker-cosmo-rosa-front.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">PASSION FRUIT</p>
+                        <div class="img">
+                            <img src="./img/PassionFruit_Can_SM.png" class="img-item">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">ORIGINAL</p>
+                        <div class="img">
+                            <img src="./img/Lemonade_Can_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">STRAWBERRY</p>
+                        <div class="img">
+                            <img src="./img/LemonadeStrawberry_Can_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">WATERMELON</p>
+                        <div class="img">
+                            <img src="./img/Marg_WatermelonCucumber_1022_Can-SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">TROPICAL</p>
+                        <div class="img">
+                            <img src="./img/PunchTropical_Can_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">FRUIT</p>
+                        <div class="img">
+                            <img src="./img/PunchFruit_Can_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">BERRY BALST</p>
+                        <div class="img">
+                            <img src="./img/TrulyExtra_Can_BerryBlast.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                </div>
+    <!-- crook&marker -->
+                <div class="container">
+                    <div class="card">
+                        <p class="titulo-item">CLASSIC MARGARITA</p>
+                        <div class="img">
+                            <img src="./img/cm-margarita-can.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">BLACKBERRY MOJITO</p>
+                        <div class="img">
+                            <img src="./img/cm-mojito-can.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">PINA COLADA</p>
+                        <div class="img">
+                            <img src="./img/cm-pina-colada-can.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">ESPRESSO MARTINI</p>
+                        <div class="img">
+                            <img src="./img/crook-marker-after-hours-front.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">COSMO ROSA</p>
+                        <div class="img">
+                            <img src="./img/crook-marker-cosmo-rosa-front.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">MANGO</p>
+                        <div class="img">
+                            <img src="./img/cook-mango.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                </div>
+    <!-- bai drink -->
+                <div class="container">
+                    <div class="card">
+                        <p class="titulo-item">JAMAICA BLOOD</p>
+                        <div class="img">
+                            <img src="./img/bai-blood.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">WAIKIKI COCONUT</p>
+                        <div class="img">
+                            <img src="./img/bai-coconut.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">BOLIVIA BLACK CHERRY</p>
+                        <div class="img">
+                            <img src="./img/bai-chery.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">GUATEMALA GUAVA</p>
+                        <div class="img">
+                            <img src="./img/bai-guava.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">INDONESIA NASHI PEAR</p>
+                        <div class="img">
+                            <img src="./img/bai-nashi.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">PERU PINEAPPLE</p>
+                        <div class="img">
+                            <img src="./img/bai-pine.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">GIMBI PINK GRAPEFRUIT</p>
+                        <div class="img">
+                            <img src="./img/bai-pink.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                </div>
+    <!-- TRULY VODKA -->
+                <div class="container">
+                    <div class="card">
+                        <p class="titulo-item">PINEAPPLE MANGO</p>
+                        <div class="img">
+                            <img src="./img/truly-vodka-bottle-pineapple-mango.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">WHITE PEACH</p>
+                        <div class="img">
+                            <img src="./img/Vodka_WhitePeach_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">BLOOD ORANGE</p>
+                        <div class="img">
+                            <img src="./img/Vodka_BloodOrange_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">CHERRY & LIME</p>
+                        <div class="img">
+                            <img src="./img/vodkaSeltzer_CherryLime_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">PEACH & TANGERINE</p>
+                        <div class="img">
+                            <img src="./img/vodkaSeltzer_PeachTangerine_SM.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                </div> 
+    <!-- 8 PACK -->
+                <div class="container">
+                    <div class="card">
+                        <p class="titulo-item">PUNCH</p>
+                        <div class="img">
+                            <img src="./img/PunchMixPack_productImage.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">MARGARITA</p>
+                        <div class="img">
+                            <img src="./img/MargaritaMixPack_productImage.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">RED, WHITE & TRU</p>
+                        <div class="img">
+                            <img src="./img/RedWhiteAndTrue_mixPack.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">VODKA SELTZER</p>
+                        <div class="img">
+                            <img src="./img/VodkaSeltzer_VariteyPack.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">TEA & LEMONADE</p>
+                        <div class="img">
+                            <img src="./img/cm-tea-and-lemonade-variety-pack-box.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">CROOKED COCKTAILS</p>
+                        <div class="img">
+                            <img src="./img/cm-crooked-cocktails-variety-pack-box.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">COCONUT</p>
+                        <div class="img">
+                            <img src="./img/CM-Coco-Box-Back.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">BLUE VARIETY</p>
+                        <div class="img">
+                            <img src="./img/CM-VP2-New-Box-BACK-SS.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>   
+                    </div>
+                </div>
+    <!-- 4 PACK             -->
+                <div class="container">
+                    <div class="card">
+                        <p class="titulo-item">CLASSIC COLA</p>
+                        <div class="img">
+                            <img src="./img/CM-Organic-Soda-4-pack-CC.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>   
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">GRAND, GRIPPING, GLORIOUS</p>
+                        <div class="img">
+                            <img src="./img/CM-Organic-Soda-4-pack-GA.png" class="img-item" alt="">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>   
+                    </div>
+                    <div class="card">
+                        <p class="titulo-item">LIGHT, LUSCIOUS, LEGENDARY</p>
+                        <div class="img">
+                            <img src="./img/CM-Organic-Soda-4-pack-LL.png" alt="" class="img-item">
+                        </div>
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>   
+                    </div>
+                    <div class="card">
+                        <span class="titulo-item">Root Beer</span>
+                        <div class="img">
+                            <img src="./img/CM-Organic-Soda-4-pack-RB.png" alt="" class="img-item">
+                        </div> 
+                        <span class="precio-item">$3</span>
+                        <button class="boton-item">Order<i class="fa-brands fa-shopify"></i></button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Carrito de Compras -->
+            <div class="carrito" id="carrito">
+                <div class="carrito-div">
+                    <div class="carrito-container">
+                        <div class="header-carrito">
+                            <h2>Cart</h2>
+                        </div>
+        
+                        <div class="carrito-items">
+                            
+                        </div>
+                        <div class="carrito-total">
+                            <div class="fila">
+                                <strong>Total Price</strong>
+                                <span class="carrito-precio-total">
+                                    $0
+                                </span>
+                            </div>
+                            <button class="btn-pagar">Pay <i class="fa-solid fa-bag-shopping"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </section>
+    <!-- order section starts  -->
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="container">
+            
+        </div>
+    </section>
+
+
+
+    <section class="order" id="order">
+
+        <div class="heading">
+            <span>order now</span>
+            <h3>fastest home delivery</h3>
+        </div>
+
+        <div class="icons-container">
+
+            <div class="icons">
+                <img src="./img/clock.png" alt="">
+                <h3>7:00am to 10:30pm</h3>
+            </div>
+
+            <div class="icons">
+                <img src="./img/phone.png" alt="">
+                <h3>+84 788 576 223</h3>
+            </div>
+
+            <div class="icons">
+                <img src="./img/location.png" alt="">
+                <h3>Da Nang - VietNam</h3>
+            </div>
+
+        </div>
+
+        <form action="">
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>your name</span>
+                    <input type="text" placeholder="Customer's name" name="" id="">
+                </div>
+                <div class="inputBox">
+                    <span>your number</span>
+                    <input type="number" placeholder="Customer's number" name="" id="">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>your order</span>
+                    <input type="text" placeholder="Drink you want" name="" id="">
+                </div>
+                <div class="inputBox">
+                    <span>how much</span>
+                    <input type="number" placeholder="Number or Orders" name="" id="">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>your details</span>
+                    <input type="text" placeholder="Your message" name="" id="">
+                </div>
+                <div class="inputBox">
+                    <span>pick up time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="inputBox">
+                    <textarea placeholder="Your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="inputBox">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.7534905343437!2d108.24971972479646!3d15.974244584691556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421152317b3825%3A0x63aeca1a1e623d4a!2zS1RYIFZJ4buGVCAtIEjDgE4gfCBWS1U!5e0!3m2!1svi!2s!4v1684720492877!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <input type="submit" value="proceed to order" class="btn">
+
+        </form>
+
+    </section>
+
+<!-- order section ends -->
+    <section class="shop" id="shop-container">
+        <div class="heading">
+            <span><i class="fa-solid fa-store"></i></span>
+            <h3>Shop Systems</h3>
+        </div>
+        <div class="list-name">
+            <a class="name active_shop">
+                <h3>Ha Noi</h3>
+            </a>
+    
+            <a class="name">
+                <h3>Ho Chi Minh</h3>
+            </a>
+    
+            <a class="name">
+                <h3>Hai Phong</h3>
+            </a>
+    
+            <a class="name">
+                <h3>Da Nang</h3>
+            </a>
+    
+            <a class="name">
+                <h3>Pleiku</h3>
+            </a>
+            <a class="name">
+                <h3>Da Lat</h3>
+            </a>
+            <a class="name">
+                <h3>Quy Nhon</h3>
+            </a>
+            <a class="name">
+                <h3>Nha Trang</h3>
+            </a>
+            <a class="name">
+                <h3>Quang Tri</h3>
+            </a>
+        </div>
+        <div class="list-shop">
+  <!-- ha noi           -->
+            <div class="shop-container active_shop">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop7.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Ha Noi, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop5.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop2.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                
+            </div>
+  <!-- ho chi minh -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Ho Chi Minh, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop2.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                
+            </div>
+    <!-- hai phong -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop5.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Hai Phong, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop2.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop7.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                
+            </div>
+   <!-- da nang -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop1.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop2.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop5.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop7.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+            </div>
+     <!-- Pleiku        -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Pleiku, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop5.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop2.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+            </div>
+     <!-- da lat        -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop7.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Lat, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="contcontent-shopent">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop5.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+            </div>
+  <!-- quy nhon        -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Quy Nhon, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop2.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop1.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop7.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+               
+            </div>
+     <!-- nha trang        -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Nha Trang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop5.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop7.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+               
+            </div>
+    <!-- quang tri         -->
+            <div class="shop-container">
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop5.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Quang Tri, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop4.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop3.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop2.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="./img/shop6.jpg" alt="">
+                    </div>
+                    <div class="content-shop">
+                        <h2>Drink_Shop</h2>
+                        <p>470 Tran Dai Nghia, Ngu Hanh Son, Da Nang, Viet Nam</p>
+                    </div>
+                </div>
+               
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="newsletter">
+            <h3>newsletter</h3>
+            <form action="">
+                <input type="email" name="" placeholder="Enter your email" id="">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our menu</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Truly</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Crook & Marker</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Baì</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> and more...</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="#popular"> <i class="fas fa-arrow-right"></i> popular</a>
+                <a href="#menu"> <i class="fas fa-arrow-right"></i> menu</a>
+                <a href="#order"> <i class="fas fa-arrow-right"></i> order</a>
+                <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privary policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Opening Hours</h3>
+                <p>Monday : 7:00am to 10:00pm</p>
+                <p>Tuesday : 7:00am to 10:00pm</p>
+                <p>Wednesday : 7:00am to 10:00pm</p>
+                <p>Friday : 7:00am to 10:00pm</p>
+                <p>Saturday and Sunday Closed</p>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            <div class="share">
+                <a href="#" class="fa-brands fa-facebook" id="icon1"></a>
+                <a href="#" class="fa-brands fa-twitter" id="icon2"></a>
+                <a href="#" class="fa-brands fa-instagram" id="icon3"></a>
+                <a href="#" class="fa-brands fa-tiktok" id="icon4"></a>
+                <a href="#" class="fa-brands fa-youtube" id="icon5"></a>
+            </div>
+        </div>
+
+    </footer>
+    <div class="call" id="call">
+        <i class="fa-solid fa-headset" id="btn-call"></i>
+    </div>
+    <section class="sport-call">
+        <div class="sport-call-container">
+            <div class="share">
+                <a href="#" class="fa-brands fa-facebook" id="icon1"></a>
+                <a href="#" class="fa-brands fa-twitter" id="icon2"></a>
+                <a href="#" class="fa-brands fa-instagram" id="icon3"></a>
+                <a href="#" class="fa-brands fa-tiktok" id="icon4"></a>
+                <a href="#" class="fa-brands fa-youtube" id="icon5"></a>
+            </div>
+            <div class="title-call">
+                <h2>Hotline: 1800 1357</h2>
+            </div>
+            <div class="group-btn-sport">
+                <a href="" class="btn-call-sport1">Cancel</a>
+                <a href="" class="btn-call-sport2">Call us</a>
+            </div>
+        </div>
+    </section>
+    <!-- footer section ends -->
+    <script src="./scrollreveal.min.js"></script>
+    <script src="./order.js"></script>
+</body>
+</html>

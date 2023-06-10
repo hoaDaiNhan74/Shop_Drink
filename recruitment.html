@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink_Shop Recruitment</title>
+    <link rel="shortcut icon" href="./img/product3.png" type="image/png">
+    <link rel="stylesheet" href="./recruitment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header" id="header">
+        <a href="#" class="logo" id="logo-btn"> 
+            <img src="./img/logo.png" alt="logo image"> 
+            Drink_Shop 
+        </a>
+        <nav class="navbar" id="nav-bar">
+            <a href="#shop-job" id="shop-job-btn"><i class="fa-solid fa-shop"></i>Shop Job</a>
+            <a href="#office-job" id="office-job-btn"><i class="fa-solid fa-building"></i>Office Job</a>
+            <a href="#check-result" id="check-btn"><i class="fa-solid fa-magnifying-glass"></i>Check Results</a>
+        </nav>
+        
+    </header>
+    <section class="search" id="search">
+        <div class="container-search">
+            <div class="search-job">
+                <div class="job">
+                    <h2>Search Job</h2>
+                    <input type="text" placeholder="Job, Nominee...">
+                </div>
+                <div class="location">
+                    <h2>Where do you want to work?</h2>
+                    <select name="location" id="">
+                        <option value="">All</option>
+                        <option value="">Ha Noi</option>
+                        <option value="">Ho Chi Minh</option>
+                        <option value="">Hai Phong</option>
+                        <option value="">Da Nang</option>
+                        <option value="">Quy Nhon</option>
+                        <option value="">Pleiku</option>
+                        <option value="">Da Lat</option>
+                        <option value="">Quang Tri</option>
+                    </select>
+                </div>
+                <div class="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </div>
+            </div>
+            <div class="outstanding">
+                <h2>Outstanding Jobs</h2>
+                <div class="list-out">
+                    <div class="item-out">
+                        <img src="./img/job1.png" alt="">
+                        <h3>Bartender</h3>
+                    </div>
+                    <div class="item-out">
+                        <img src="./img/job5.png" alt="">
+                        <h3>Staff</h3>
+                    </div>
+                    <div class="item-out">
+                        <img src="./img/job2.png" alt="">
+                        <h3>Security</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-job">
+        <div class="container">
+            <div class="container-shop">
+                <div class="image">
+                    <img src="./img/job4.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Shop Job</h2>
+                    <ul>
+                        <li>Staff</li>
+                        <li>Store Manager</li>
+                        <li>Clerk</li>
+                        <li>Bartender</li>
+                        <li>Security</li>
+                    </ul>
+                </div>
+                <div class="button" id="shop-btn"><span>View all shop jobs</span></div>
+            </div>
+            <div class="container-shop">
+                <div class="image">
+                    <img src="./img/job3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Office Job</h2>
+                    <ul>
+                        <li>Manager</li>
+                        <li>Advertiser</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="button" id="office-btn"><span>View all office jobs</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="check-result" id="check-result">
+        <div class="container-check">
+            <form action="" class="form-chech">
+                <div class="title">
+                    <h2>Check Result</h2>
+                </div>
+                <div class="input-group">
+                    <label for="">CMNN/CCCD</label>
+                    <input type="text" placeholder="Enter CMND/CCCD">
+                </div>
+                <div class="input-group">
+                    <label for="">Number Phone</label>
+                    <input type="text" placeholder="Enter number phone">
+                </div>
+                <div class="button"><span>Check Results</span></div>
+            </form>
+        </div>
+    </section>
+    <section class="shop-job" id="shop-job">
+        <div class="container-check">
+            <div class="title">
+                <span>4 Job</span>
+                <h2>Shop Job</h2>
+            </div>
+            <div class="content-job">
+                <div class="item-job active-item-job" style="display: none;">
+
+                </div>
+                <div class="item-job">
+                    <div class="item-job-left">
+                        <h3>Store Service Staff</h3>
+                        <span><i class="fa-solid fa-money-bill-1-wave"></i>Compete</span>
+                        <span><i class="fa-solid fa-location-dot"></i>Ha Noi, Da Nang, Ho Chi Minh</span>
+                    </div>
+                    <div class="item-job-right">
+                        <span><i class="fa-regular fa-calendar-days"></i>31/12/2023</span>
+                        <button>Apply now!</button>
+                    </div>
+                </div>
+                <div class="item-job">
+                    <div class="item-job-left">
+                        <h3>Store Manager</h3>
+                        <span><i class="fa-solid fa-money-bill-1-wave"></i>Agree</span>
+                        <span><i class="fa-solid fa-location-dot"></i>Ha Noi, Hai Phong, Quy Nhon, Da Lat</span>
+                    </div>
+                    <div class="item-job-right">
+                        <span><i class="fa-regular fa-calendar-days"></i>31/12/2023</span>
+                        <button>Apply now!</button>
+                    </div>
+                </div>
+                <div class="item-job">
+                    <div class="item-job-left">
+                        <h3>Shift supervision</h3>
+                        <span><i class="fa-solid fa-money-bill-1-wave"></i>Agree</span>
+                        <span><i class="fa-solid fa-location-dot"></i>Da Nang, Quang Tri, Da Lat</span>
+                    </div>
+                    <div class="item-job-right">
+                        <span><i class="fa-regular fa-calendar-days"></i>30/09/2023</span>
+                        <button>Apply now!</button>
+                    </div>
+                </div>
+                <div class="item-job">
+                    <div class="item-job-left">
+                        <h3>Bartender</h3>
+                        <span><i class="fa-solid fa-money-bill-1-wave"></i>Agree</span>
+                        <span><i class="fa-solid fa-location-dot"></i>Hai Phong, Ho Chi Minh, Quy Nhon</span>
+                    </div>
+                    <div class="item-job-right">
+                        <span><i class="fa-regular fa-calendar-days"></i>31/12/2023</span>
+                        <button>Apply now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item">
+                <span class="left"><i class="fa-solid fa-angle-left"></i></span>
+                <span class="number">1</span>
+                <span class="right"><i class="fa-solid fa-angle-right"></i></span>
+            </div>
+        </div>
+        <div class="about-job">
+            <div class="describe active-item-job" style="display: none;">
+
+            </div>
+            <div class="describe">
+                <div class="title-name">
+                    <h2>Store Service Staff</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>Job Description</h3>
+                        <ul>
+                            <li>- Welcoming and advising the menu for customers</li>
+                            <li>- Receive demand (order) according to customer's request and transfer the order to the beverage counter or kitchen</li>
+                            <li>- Serve customers' drinks and dishes in a prompt and courteous manner in accordance with service standards.</li>
+                            <li>- Ensure the work area is clean.</li>
+                            <li>- Prioritize good English communication, confidently communicate with foreign guests</li>
+                            <li>- Full Time 08 hours/shift (morning shift: 06:30 to 14:30; Afternoon shift: 14:30 to 23:00)</li>
+                            <li>- Part Time from 04 - 06 hours/shift (registration for a flexible schedule, rotating morning and evening shifts)</li>
+                        </ul>
+                </div>
+            </div>
+            <div class="describe">
+                <div class="title-name">
+                    <h2>Store Manager</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>Job Description</h3>
+                    <ol>
+                        <li>Operations Management
+                            <ul>
+                                <li>- Mastering & guiding the operation process and company rules, ensuring the correct implementation of the working process at the store</li>
+                                <li>- Responsible for running the store, arranging work shifts</li>
+                                <li>- Solve any problems that arise at the store. Ensuring service standards, providing customers with a high-quality service experience</li>
+                            </ul>
+                        </li>
+                        <li>Human resources management
+                            <ul>
+                                <li>- Managing store personnel, building a friendly and inclusive working environment for members</li>
+                                <li>- Responsible for guiding and training staff at the store on professional skills</li>
+                                <li>- Listen, care and support the difficulties or questions of employees</li>
+                            </ul>
+                        </li>
+                        <li>Job Requirements
+                            <ul>
+                                <li>- More than 6 months of experience in the position of Store Manager in the coffee or restaurant industry, or over 1 year in a store supervisor position</li>
+                                <li>- Having good management skills, leading a team of more than 10 employees</li>
+                                <li>- Have office computer skills. Skills for making & reading reports</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="describe">
+                <div class="title-name">
+                    <h2>Shift supervision</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>Job description</h3>
+                    <ol>
+                        <li>Operational management
+                            <ul>
+                                <li>- Master the operating procedures and company rules, ensure the correct implementation of the working procedures at the store</li>
+                                <li>- Responsible for the shift work</li>
+                                <li>- Control the quality of products delivered to customers, ensuring uniformity and compliance with requirements</li>
+                            </ul>
+                        </li>
+                        <li>Revenue and expense management
+                            <ul>
+                                <li>- Support store manager (SM) to order & control goods, manage inventory, effectively use store costs</li>
+                            </ul>
+                        </li>
+                        <li>HRM
+                            <ul>
+                                <li>- Managing personnel in shifts, ensuring work processes are carried out accurately and efficiently</li>
+                            </ul>
+                        </li>
+                        <li>Job Requirements
+                            <ul>
+                                <li>- Have office computer skills</li>
+                                <li>- Honesty, enthusiasm, sensitivity and high sense of responsibility</li>
+                                <li>- Ready to go to work on holidays and business trips</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="describe">
+                <div class="title-name">
+                    <h2>ten cong viec</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>Job description</h3>
+                    <ol>
+                        <li>Job description
+                            <ul>
+                                <li>- Apply for admission</li>
+                                <li>- Profile screening</li>
+                                <li>- Interview</li>
+                                <li>- Abundant</li>
+                                <li>- Get a job</li>
+                            </ul>
+                        </li>
+                        <li>Job Requirements
+                            <ul>
+                                <li>- Age from full 19  and up</li>
+                                <li>- Agile, cheerful, vivacious</li>
+                                <li>- Full Time 08 hours/shift rotation morning and evening (South: Morning shift: 06:30 to 14:30; Afternoon shift: 14:30 to 22:30; North: Morning shift: 07:00 to 15:00; Afternoon shift: 15:00 to 23:00)</li>
+                                <li>- Part Time from 04 - 06 hours/shift (registration for a flexible schedule, rotating morning and evening shifts)</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="shop-job" id="office-job">
+        <div class="container-check">
+            <div class="title">
+                <span>1 Job</span>
+                <h2>Office Job</h2>
+            </div>
+            <div class="content-job">
+                <div class="item-job  active-item-job" style="display: none;" id="item-job-office">
+
+                </div>
+                <div class="item-job" id="item-job-office">
+                    <div class="item-job-left">
+                        <h3>Customer care executive</h3>
+                        <span><i class="fa-solid fa-money-bill-1-wave"></i>Compete</span>
+                        <span><i class="fa-solid fa-location-dot"></i>Da Nang</span>
+                    </div>
+                    <div class="item-job-right">
+                        <span><i class="fa-regular fa-calendar-days"></i>31/10/2023</span>
+                        <button>Apply now!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item">
+                <span class="left"><i class="fa-solid fa-angle-left"></i></span>
+                <span class="number">1</span>
+                <span class="right"><i class="fa-solid fa-angle-right"></i></span>
+            </div>
+        </div>
+        <div class="about-job" id="about-job-office">
+            <div class="describe  active-item-job" style="display: none;" id="describe-office"></div>
+            <div class="describe" id="describe-office">
+                <div class="title-name">
+                    <h2>Customer care executive</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>Job description</h3>
+                        <ul>
+                            <li>- Listen and answer customer questions, feedback and take care of customer experience through multiple channels (facebook, phone, email, app)</li>
+                            <li>- Clarify customer feedback and coordinate with stakeholders to resolve issues</li>
+                            <li>- Ensure a balance between company policies and customer interests</li>
+                            <li>- Create initiatives to improve processes and deliver better customer experiences</li>
+                            <li>- Daily reporting to management</li>
+                            <li>- Other admin jobs as assigned by management</li>
+                        </ul>
+                </div>
+            </div>
+            <div class="describe" id="describe-office">
+                <div class="title-name">
+                    <h2>ten cong viec</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>mo ta cong viec</h3>
+                    <ol>
+                        <li>Mo ta cong viec
+                            <ul>
+                                <li>mo ta 1</li>
+                                <li>mo ta 2</li>
+                                <li>mo ta 3</li>
+                                <li>mo ta 4</li>
+                            </ul>
+                        </li>
+                        <li>yeu cau cong viec
+                            <ul>
+                                <li>yeu cau 1</li>
+                                <li>yeu cau 2</li>
+                                <li>yeu cau 3</li>
+                                <li>yeu cau 4</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="describe" id="describe-office">
+                <div class="title-name">
+                    <h2>ten cong viec</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>mo ta cong viec</h3>
+                    <ol>
+                        <li>Mo ta cong viec
+                            <ul>
+                                <li>mo ta 1</li>
+                                <li>mo ta 2</li>
+                                <li>mo ta 3</li>
+                                <li>mo ta 4</li>
+                            </ul>
+                        </li>
+                        <li>yeu cau cong viec
+                            <ul>
+                                <li>yeu cau 1</li>
+                                <li>yeu cau 2</li>
+                                <li>yeu cau 3</li>
+                                <li>yeu cau 4</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="describe" id="describe-office">
+                <div class="title-name">
+                    <h2>ten cong viec</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>mo ta cong viec</h3>
+                    <ol>
+                        <li>Mo ta cong viec
+                            <ul>
+                                <li>mo ta 1</li>
+                                <li>mo ta 2</li>
+                                <li>mo ta 3</li>
+                                <li>mo ta 4</li>
+                            </ul>
+                        </li>
+                        <li>yeu cau cong viec
+                            <ul>
+                                <li>yeu cau 1</li>
+                                <li>yeu cau 2</li>
+                                <li>yeu cau 3</li>
+                                <li>yeu cau 4</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="describe" id="describe-office">
+                <div class="title-name">
+                    <h2>ten cong viec</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>mo ta cong viec</h3>
+                    <ol>
+                        <li>Mo ta cong viec
+                            <ul>
+                                <li>mo ta 1</li>
+                                <li>mo ta 2</li>
+                                <li>mo ta 3</li>
+                                <li>mo ta 4</li>
+                            </ul>
+                        </li>
+                        <li>yeu cau cong viec
+                            <ul>
+                                <li>yeu cau 1</li>
+                                <li>yeu cau 2</li>
+                                <li>yeu cau 3</li>
+                                <li>yeu cau 4</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="describe" id="describe-office">
+                <div class="title-name">
+                    <h2>ten cong viec</h2>
+                </div>
+                <div class="describe-content">
+                    <h3>mo ta cong viec</h3>
+                    <ol>
+                        <li>Mo ta cong viec
+                            <ul>
+                                <li>mo ta 1</li>
+                                <li>mo ta 2</li>
+                                <li>mo ta 3</li>
+                                <li>mo ta 4</li>
+                            </ul>
+                        </li>
+                        <li>yeu cau cong viec
+                            <ul>
+                                <li>yeu cau 1</li>
+                                <li>yeu cau 2</li>
+                                <li>yeu cau 3</li>
+                                <li>yeu cau 4</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="newsletter">
+            <h3>newsletter</h3>
+            <form action="">
+                <input type="email" name="" placeholder="Enter your email" id="">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>+84 788 576 223</a>
+                <a href=""><i class="fas fa-arrow-right"></i> hoanv.22itb@vku.udn.vn</a>
+                <a href=""><i class="fas fa-arrow-right"></i> Da Nang - Viet Nam</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#shop-job"> <i class="fas fa-arrow-right"></i> Shop Job</a>
+                <a href="#office-job"> <i class="fas fa-arrow-right"></i> Office Job</a>
+                <a href="#check-result"> <i class="fas fa-arrow-right"></i> Check Results</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privary policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Opening Hours</h3>
+                <p>Monday : 7:00am to 10:00pm</p>
+                <p>Tuesday : 7:00am to 10:00pm</p>
+                <p>Wednesday : 7:00am to 10:00pm</p>
+                <p>Friday : 7:00am to 10:00pm</p>
+                <p>Saturday and Sunday Closed</p>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            <div class="share">
+                <a href="#" class="fa-brands fa-facebook" id="icon1"></a>
+                <a href="#" class="fa-brands fa-twitter" id="icon2"></a>
+                <a href="#" class="fa-brands fa-instagram" id="icon3"></a>
+                <a href="#" class="fa-brands fa-tiktok" id="icon4"></a>
+                <a href="#" class="fa-brands fa-youtube" id="icon5"></a>
+            </div>
+        </div>
+
+    </footer>
+    <div class="call" id="call">
+        <i class="fa-solid fa-headset" id="btn-call"></i>
+    </div>
+    <section class="sport-call">
+        <div class="sport-call-container">
+            <div class="share">
+                <a href="#" class="fa-brands fa-facebook" id="icon1"></a>
+                <a href="#" class="fa-brands fa-twitter" id="icon2"></a>
+                <a href="#" class="fa-brands fa-instagram" id="icon3"></a>
+                <a href="#" class="fa-brands fa-tiktok" id="icon4"></a>
+                <a href="#" class="fa-brands fa-youtube" id="icon5"></a>
+            </div>
+            <div class="title-call">
+                <h2>Hotline: 1800 1357</h2>
+            </div>
+            <div class="group-btn-sport">
+                <a href="" class="btn-call-sport1">Cancel</a>
+                <a href="" class="btn-call-sport2">Call us</a>
+            </div>
+        </div>
+    </section>
+    <!-- footer section ends -->
+    <script src="./scrollreveal.min.js"></script>
+    <script src="./recruitment.js"></script>
+</body>
+</html>

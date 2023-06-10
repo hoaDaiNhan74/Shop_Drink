@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink_Shop</title>
+    <link rel="shortcut icon" href="./img/product3.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <a href="#" class="logo"> 
+            <img src="./img/logo.png" alt="logo image"> 
+            Drink_Shop 
+        </a>
+        <nav class="navbar" id="nav-bar">
+            <a href="#home" class="active-link">Home</a>
+            <a href="#about">About</a>
+            <a href="./menu.html">Menu</a>
+            <a href="./oder.html">Order</a>
+            <a href="./blog.html">Blogs</a>
+            <a href="./recruitment.html" target="_blank">Recruitment</a>
+        </nav>
+        
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="btn-user" class="fa-solid fa-user"></div>
+            <div id="btn-cart" class="fa-brands fa-shopify"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+    <!-- login-form  -->
+    <div class="login-form">
+        <div class="login-container">
+            <div class="signin-signup">
+                <form action="" class="sign-in-form">
+                    <h2 class="title-lg">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i style="color: rgb(28, 62, 253);" class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i style="color: rgb(0, 191, 255);" class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <img src="./img/Google.png" alt="">
+                        </a>
+                    </div>
+                    <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+                </form>
+                <form action="" class="sign-up-form">
+                    <h2 class="title-lg">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <svg role="img" height="24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"><defs><path id="a" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><path clip-path="url(#b)" fill="#FBBC05" d="M0 37V11l17 13z"></path><path clip-path="url(#b)" fill="#EA4335" d="M0 11l17 13 7-6.1L48 14V0H0z"></path><path clip-path="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z"></path><path clip-path="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z"></path></svg>
+                        </a>
+                    </div>
+                    <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+                </form>
+            </div>
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content-lg">
+                        <h3>Member of Brand?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt minima iure?</p>
+                        <button class="btn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <img src="./img/bai-login.png" alt="" class="image">
+                </div>
+                <div class="panel right-panel">
+                    <div class="content-lg">
+                        <h3>New to Brand?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt minima iure?</p>
+                        <button class="btn" id="sign-up-btn">Sign up</button>
+                    </div>
+                    <img src="./img/crook-login.png" alt="" class="image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="home" id="home">
+        <video class="video-slide active" src="./img/crook-marker1.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="./img/Crook & Marker (1).mp4" autoplay muted loop></video>
+        <video class="video-slide" src="./img/crook-marker2.mp4" autoplay muted loop></video>
+        <div class="home-content active">
+            <h1><span>COCKTAILS</span> WITH<br>
+                NOTHING TO HIDE</h1>
+            <p>Gone are the days of having to choose between bold flavor and better-for-you ingredients. No more this or that. <br> No more compromises. No more no’s. Because with <span>Crook & Marker</span> — a new brand of organic cocktails <br> from the founder of Bai — good ingredients and great taste can finally coexist.</p>
+            <p class="slogan">ZERO SUGAR ORGANIC COCKTAILS</p>
+            <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="home-content">
+            <h1><span>COMMITTED TO</span> <br> BRINGINGTHIS WORLD TO LIFE</h1>
+            <p>It’s a future too marvelous to exist only in our imaginations. We want everyone to be able to experience it.<br> <span>Bai’s</span> approach to innovation guides us in our quest. We are unwavering achievers — eager to find new ways <br> to translate modern wellness trends into tasty drinks everyone can enjoy. Because that’s the only way to make this world of better beverages a reality.</p>
+            <p class="slogan">WE ALL ARE ONE STEP CLOSER TO OUR ENVISIONED FUTURE</p>
+            <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="home-content">
+            <h1><span>WHAT'S </span>IN THE CAN?</h1>
+            <p>Good question. The short answer? A whole lot. Inside every can of <span>Truly</span> is a fresh adventure just <br> waiting to be opened (also plenty of seltzer). That’s because you never know where your next sip will take you. <br> Maybe a boat. Maybe a bar crawl. Maybe boarding a flight to that secluded island off the coast of Croatia you always <br> thought about going to — you know, the one with the bottomless seafood buffet? Yeah, you know.</p>
+            <p class="slogan">LIFE IN THE TRU-NIVERSE</p>
+            <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="slider-nav">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+    <!-- category section starts  -->
+
+    <section class="information">
+
+        <a href="#" class="box">
+            <img src="./img/heathy.png" alt="">
+            <h3>Good For Health</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./img/antoan.png" alt="">
+            <h3>Food Safety</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./img/100natural.png" alt="">
+            <h3>100% Netural</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./img/fast.png" alt="">
+            <h3>Fast Delivery</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./img/best.png" alt="">
+            <h3>Best Quality</h3>
+        </a>
+        <a href="#" class="box">
+            <img src="./img/support.png" alt="">
+            <h3>24/7 Support</h3>
+        </a>
+        
+    </section>
+    <!-- about section starts  -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="video">
+            <video controls loop muted autoplay>
+                <source src="./img/about2.mp4">
+            </video>
+        </div>
+
+        <div class="content">
+            <span>why choose us?</span>
+            <h3 class="title">What makes our drinks so popular ?</h3>
+            <p>A good food will help improve your health. Help you drink freely without worrying about affecting the health of yourself and your loved ones!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+    <!-- popular section starts  -->
+
+    <section class="popular" id="popular">
+
+        <div class="heading">
+            <span>Popular Drink</span>
+            <h3>Top drinks chosen by most people</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/bai-blood.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>BLOOD ORANGE</h3>
+                    <p>BAÌ</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (55) </span>
+                    </div>
+                    <div class="price">$3.00 <span>$4.00</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/cm-pina-colada-can.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>PINA COLADA</h3>
+                    <p>CROOK & MARKER</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">$3.00 <span>$4.00</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/bai-coconut.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>COCONUT</h3>
+                    <p>BAÌ</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (60) </span>
+                    </div>
+                    <div class="price">$3.00 <span>$3.50</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/truly-berry-mix.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>BERRY MIX PACK</h3>
+                    <p>TRULY</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (150) </span>
+                    </div>
+                    <div class="price">$15.00 <span>$18.00</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/truly-citrus.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>CITRUS PUNCH</h3>
+                    <p>TRULY</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (70) </span>
+                    </div>
+                    <div class="price">$3.00 <span>$4.00</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/crook-coconut.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>COCONUT PINEAPPLE</h3>
+                    <p>CROOK & MARKER</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">$3.00 <span>$4.00</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/cm-margarita-can.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>MARGARITA</h3>
+                    <p>CROOK & MARKER</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (40) </span>
+                    </div>
+                    <div class="price">$3.00 <span>$4.00</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fa-solid fa-heart"></a>
+                <div class="image">
+                    <img src="./img/truly-lemon.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>PINEAPPLE LEMONADE</h3>
+                    <p>TRULY</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span> (80) </span>
+                    </div>
+                    <div class="price">$3.00 <span>$4.00</span></div>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- banner section starts  -->
+
+    <section class="banner">
+
+        <div class="row-banner">
+            <video loop muted autoplay>
+                <source src="./img/about1.mp4">
+            </video>
+            <div class="content">
+                <span>Truly Hard Seltzer</span>
+                <h3>coming</h3>
+                <p>with spiked tropical seltzers ahead of Summer!</p>
+                <a href="./oder.html" target="_blank" class="btn">Order Now</a>
+            </div>
+        </div>
+
+        <div class="grid-banner">
+            <div class="grid">
+                <img src="./img/bai3.jpg" alt="">
+                <div class="content">
+                    <span>special offer</span>
+                    <h3>upto 50% off</h3>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="grid">
+                <img src="./img/product3.png" alt="">
+                <div class="content center">
+                    <span>special offer</span>
+                    <h3>upto 25% extra</h3>
+                    <a href="#" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="grid">        
+                <img src="./img/cook.jpg" alt="">
+                <div class="content">
+                    <span>limited offer</span>
+                    <h3>100% cashback</h3>
+                    <a href="./oder.html" target="_blank" class="btn">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!-- banner section ends -->
+
+    <!-- order section starts  -->
+
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <div class="heading">
+            <span>our blogs</span>
+            <h3>our daily stories</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <h3> <i class="fas fa-calendar"></i> 21st may, 2023 </h3>
+                    <img src="./img/crook-blog.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="tags">
+                        <a href="#"> <i class="fa-brands fa-instagram"></i> @crookandmarker / </a>
+                        <a href="#"> <i class="fa-brands fa-instagram"></i> @zacbrownband / </a>
+                    </div>
+                    <h3>SWEEPSTAKES</h3>
+                    <p>You know we like our Chicken fried & a cold Crook ...</p>
+                    <a href="./blog.html" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <h3> <i class="fas fa-calendar"></i> 1st may, 2023 </h3>
+                    <img src="./img/blog-truly.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="tags">
+                        <a href="#"> <i class="fa-brands fa-instagram"></i>@truly</a>
+                    </div>
+                    <h3>Something’s coming…</h3>
+                    <p>Are you realdy...</p>
+                    <a href="./blog.html" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <h3> <i class="fas fa-calendar"></i> 15st may, 2023 </h3>
+                    <img src="./img/bai-blog.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="tags">
+                        <a href="#"> <i class="fa-brands fa-instagram"></i>@drinkbai</a>
+                    </div>
+                    <h3>Good luck!</h3>
+                    <p>We’re full of festival flavor this summer, so we’re...</p>
+                    <a href="./blog.html" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <footer class="footer">
+
+        <div class="newsletter">
+            <h3>newsletter</h3>
+            <form action="">
+                <input type="email" name="" placeholder="Enter your email" id="">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our menu</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> Truly</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Crook & Marker</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> Baì</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> and more...</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="./menu.html"> <i class="fas fa-arrow-right"></i> menu</a>
+                <a href="./oder.html"> <i class="fas fa-arrow-right"></i> order</a>
+                <a href="./blog.html"> <i class="fas fa-arrow-right"></i> blogs</a>
+                <a href="/recruitment.html"> <i class="fas fa-arrow-right"></i> recruitment</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privary policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Opening Hours</h3>
+                <p>Monday : 7:00am to 10:00pm</p>
+                <p>Tuesday : 7:00am to 10:00pm</p>
+                <p>Wednesday : 7:00am to 10:00pm</p>
+                <p>Friday : 7:00am to 10:00pm</p>
+                <p>Saturday and Sunday Closed</p>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            <div class="share">
+                <a href="#" class="fa-brands fa-facebook" id="icon1"></a>
+                <a href="#" class="fa-brands fa-twitter" id="icon2"></a>
+                <a href="#" class="fa-brands fa-instagram" id="icon3"></a>
+                <a href="#" class="fa-brands fa-tiktok" id="icon4"></a>
+                <a href="#" class="fa-brands fa-youtube" id="icon5"></a>
+            </div>
+        </div>
+
+    </footer>
+    <div class="call" id="call">
+        <i class="fa-solid fa-headset" id="btn-call"></i>
+    </div>
+    <section class="sport-call">
+        <div class="sport-call-container">
+            <div class="share">
+                <a href="#" class="fa-brands fa-facebook" id="icon1"></a>
+                <a href="#" class="fa-brands fa-twitter" id="icon2"></a>
+                <a href="#" class="fa-brands fa-instagram" id="icon3"></a>
+                <a href="#" class="fa-brands fa-tiktok" id="icon4"></a>
+                <a href="#" class="fa-brands fa-youtube" id="icon5"></a>
+            </div>
+            <div class="title-call">
+                <h2>Hotline: 1800 1357</h2>
+            </div>
+            <div class="group-btn-sport">
+                <a href="" class="btn-call-sport1">Cancel</a>
+                <a href="" class="btn-call-sport2">Call us</a>
+            </div>
+        </div>
+    </section>
+    <!-- footer section ends -->
+    <script src="./scrollreveal.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
