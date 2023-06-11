@@ -141,8 +141,7 @@ const sr = ScrollReveal({
     resert:true
 })
 
-sr.reveal('.content',{origin: 'top'})
-sr.reveal('h3',{origin: 'top'})
-sr.reveal('.bottom, .image',{interval: 100})
+sr.reveal('h3,.content',{origin: 'top'})
+sr.reveal('.bottom',{interval: 100})
 sr.reveal('p',{origin: 'left'})
 sr.reveal('span',{origin: 'right'})
