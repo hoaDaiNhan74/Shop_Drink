@@ -242,8 +242,6 @@ html::-webkit-scrollbar-thumb:hover{
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background: #cfcfcf43;
-  padding: 1rem;
   border-radius: 1rem;
   overflow: hidden;
   cursor: pointer;
@@ -253,12 +251,13 @@ html::-webkit-scrollbar-thumb:hover{
   transform: translateY(-.3rem);
 }
 .outstanding .list-out .item-out img{
-  width: 10rem;
-  margin-bottom: 1rem;
+  width: 100%;
+  margin-bottom: .5rem;
 }
 .outstanding .list-out .item-out h3{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-shadow: 1px 2px 3px #ff6d00;
+  margin-bottom: .5rem;
 }
 .container-job{
   width: 100%;
