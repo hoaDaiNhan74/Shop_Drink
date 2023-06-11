@@ -136,8 +136,8 @@ document.addEventListener('touchstart', function(event) {
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 1700,
-    delay: 100,
+    duration: 100,
+    delay: 50,
     resert:true
 })
 
