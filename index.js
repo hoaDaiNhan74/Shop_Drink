@@ -104,17 +104,17 @@ document.addEventListener('touchstart', function(event) {
     }
   }
 });
-// // scroll reveal
-// const sr = ScrollReveal({
-//   origin: 'top',
-//   distance: '60px',
-//   duration: 2500,
-//   delay: 100,
-//   resert:true
-// })
+// scroll reveal
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 1500,
+  delay: 100,
+  resert:true
+})
 
-// sr.reveal('.content,.box-container',{origin: 'top'})
-// sr.reveal('.title',{origin: 'top'})
-// sr.reveal('.box, .bottom',{interval: 100})
-// sr.reveal('.video',{origin: 'left'})
-// sr.reveal('.content',{origin: 'right'})
+sr.reveal('.content,.box-container',{origin: 'top'})
+sr.reveal('.title',{origin: 'top'})
+sr.reveal('.box, .bottom',{interval: 100})
+sr.reveal('.video',{origin: 'left'})
+sr.reveal('.content',{origin: 'right'})

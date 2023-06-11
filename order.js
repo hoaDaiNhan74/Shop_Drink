@@ -198,7 +198,7 @@ if(navToggle){
   const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 1200,
+    duration: 800,
     delay: 100,
     resert:true
   })

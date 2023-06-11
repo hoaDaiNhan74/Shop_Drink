@@ -1195,6 +1195,10 @@ section {
   height: 3rem;
   width: 5rem;
   border-radius: .5rem;
+  transition: all ease .5s;
+}
+.footer .box-container .box .group-img img:hover{
+  transform: translateY(-.4rem);
 }
 .footer .box-container .box a:hover {
   color: #27ae60;
@@ -1403,6 +1407,9 @@ section {
     height: 30px;
     line-height: 30px;
   }
+  .login-container{
+    width: 90vw;
+}
 }
 @media screen and  (max-width: 991px) {
   html {
