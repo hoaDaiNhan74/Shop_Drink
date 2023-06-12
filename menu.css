@@ -170,11 +170,7 @@ footer {
   transform: translateY(-.35rem);
 }
 
-#menu-btn,
-#btn-cart,
-#search-btn {
-  display: none;
-}  
+
 
 /* about */
 .about {
