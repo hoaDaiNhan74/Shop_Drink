@@ -1348,12 +1348,6 @@ section {
 }
 
 
-@media screen and  (max-width:779px) {
-  .login-container {
-      width: 100vw;
-      height: 100vh;
-  }
-}
 @media screen and  (max-width:635px) {
   .login-container::before {
       display: none;
@@ -1449,6 +1443,13 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+  .login-form{
+    top: 3rem;
+    height: 100vh;
+  }
+  .login-container {
+      width: 95vw;
+  }
   .header .logo img {
     width: 40px;
   }

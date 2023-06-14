@@ -192,7 +192,7 @@ section {
   height: calc(100vh - 8.5rem);
   width: 100%;
   background: #fff;
-  z-index: 1000;
+  z-index: 999;
   display: none;
 }
 
@@ -1097,6 +1097,9 @@ footer{
   .sport-call-container{
     width: 40vw;
   }
+  .login-container{
+    width: 90vw;
+}
 }
 @media screen and  (max-width: 991px) {
   html {
@@ -1113,6 +1116,13 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+  .login-form{
+    top: 3rem;
+    height: 100vh;
+  }
+  .login-container {
+      width: 95vw;
+  }
   .header .logo img {
     width: 40px;
   }
@@ -1163,6 +1173,31 @@ footer{
   }
 }
 
+@media screen and  (max-width:635px) {
+  .login-container::before {
+      display: none;
+  }
+  .login-container .signin-signup form {
+      width: 80%;
+  }
+  .login-container .signin-signup .sign-up-form {
+      display: none;
+  }
+  .login-container.sign-up-mode2 .signin-signup .sign-up-form {
+      display: flex;
+      opacity: 1;
+  }
+  .login-container.sign-up-mode2 .signin-signup .sign-in-form {
+      display: none;
+  }
+  .panels-container {
+      display: none;
+  }
+  .account-text {
+      display: initial;
+      margin-top: 30px;
+  }
+}
 @media screen and  (max-width: 450px) {
   html {
     font-size: 50%;
@@ -1214,6 +1249,11 @@ footer{
   }
   .banner .row-banner .content {
     top: 45%;
+  }
+}
+@media screen and (max-width:320px) {
+  .login-container .signin-signup form {
+      width: 90%;
   }
 }
 .show-menu{
