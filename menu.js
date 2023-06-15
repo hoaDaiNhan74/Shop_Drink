@@ -45,7 +45,12 @@ const scrollHeader = () =>{
                        : header.classList.remove('bg-header')
 }
 window.addEventListener('scroll', scrollHeader)
-
+const scrollUp = () =>{
+  const up = document.getElementById('up')
+  this.scrollY >= 150 ? up.classList.add('bg-up') 
+                     : up.classList.remove('bg-up')
+}
+window.addEventListener('scroll', scrollUp)
 // show submenu cua trang menu    
 /// Lấy tất cả các dropdown-btn
 const dropdownBtns = document.querySelectorAll('.dropdown-btn');

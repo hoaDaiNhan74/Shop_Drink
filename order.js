@@ -106,7 +106,12 @@ const scrollHeader = () =>{
                        : header.classList.remove('bg-header')
   }
   window.addEventListener('scroll', scrollHeader)
-  
+const scrollUp = () =>{
+  const up = document.getElementById('up')
+  this.scrollY >= 150 ? up.classList.add('bg-up') 
+                      : up.classList.remove('bg-up')
+}
+window.addEventListener('scroll', scrollUp)  
   
 const navMenu = document.getElementById('nav-bar');
 const navToggle = document.getElementById('menu-btn');

@@ -506,6 +506,35 @@ footer {
   cursor: pointer;
   outline: none;
 }
+.up{
+  position: fixed;
+  z-index: 1000;
+  top: 77%;
+  right: 2.15%;
+  align-items: center;
+  padding: 1.3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+.bg-up{
+  display: block;
+}
+
+.up i{
+  color: #ff6d00;
+  font-size: 3rem;
+  animation: float 1.2s infinite linear;
+}
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(1rem);
+  }
+}
 .call i{
   font-size: 3rem;
   color: #fff;
