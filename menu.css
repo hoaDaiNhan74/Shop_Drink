@@ -744,7 +744,10 @@ footer {
     width: 80%;
     display: block;
   }
-
+  .search-form-container {
+    top: 6.2rem;
+    height: calc(100vh - 6.2rem);
+  }
   
 }
 
