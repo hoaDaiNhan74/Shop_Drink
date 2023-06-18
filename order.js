@@ -31,18 +31,7 @@ btn_promotion.addEventListener("click", () => {
 promotion_close.addEventListener("click", () => {
   promotion.classList.remove("promotion-active");
 });
-window.onclick = function(event) {
-  if (!event.target.matches('#promotion')) {
-    var dropdowns = document.getElementsByClassName("promotion");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('promotion-active')) {
-        openDropdown.classList.remove('promotion-active');
-      }
-    }
-  }
-}
+
 
 
 let loginForm = document.querySelector('.login-form');
@@ -188,7 +177,18 @@ if(navToggle){
           }
         }
       }
+      if (!event.target.matches('#promotion')) {
+        var dropdowns = document.getElementsByClassName("promotion");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('promotion-active')) {
+            openDropdown.classList.remove('promotion-active');
+          }
+        }
+      }
     } 
+    
     document.addEventListener('touchstart', function(event) {
       var dropdowns = document.getElementsByClassName('sport-call');
       for (var i = 0; i < dropdowns.length; i++) {

@@ -1,4 +1,8 @@
+let searchForm = document.querySelector('.search-form-container');
 
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active');
+}
 const navMenu = document.getElementById('nav-bar');
 const navToggle = document.getElementById('menu-btn');
 let count = 0;
